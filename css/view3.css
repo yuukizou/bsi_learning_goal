@@ -1,17 +1,18 @@
 .title {
         text-align: center;
-        color: #444;
-        font-size: 28px;
+        color: #f5eeee;
+        font-size: 40px;
         margin-top: 56px;
-        margin-bottom: 56px;
+        /* margin-bottom: 56px; */
+        font-family: "Lato";
     }
 
     .subtitle {
         text-align: center;
-        color: #444;
+        color: #f5eeee;
         font-size: 21px;
         margin-top: 42px;
-        margin-bottom: 42px;
+        font-family: "Lato";
     }
 
     .goback {
@@ -67,15 +68,15 @@
 
     .legendText {
         font-size: 11px;
-        fill: #6B6B6B;
+        fill: #f5eeee;
         font-weight: 300;
     }
 
     #courseSpeeds .axisTitle {
         text-anchor: middle;
-        fill: #6B6B6B;
+        fill: #f5eeee;
         font-size: 14px;
-        font-weight: 300;
+        /* font-weight: 300; */
     }
 
     #courseSpeeds .courseTitle {
@@ -94,7 +95,7 @@
     }
 
     #courseSpeeds .axis text {
-        fill: #8C8C8C;
+        fill: #f5eeee;
         font-size: 12px;
         font-weight: 300;
     }

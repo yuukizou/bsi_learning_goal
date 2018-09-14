@@ -1,7 +1,7 @@
 /* View 2 General */
 body {
   margin: 0;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Lato', sans-serif;
   text-align: center;
 }
 
@@ -41,7 +41,7 @@ body {
 
 .line {
   stroke-dasharray: 5, 5;
-  stroke: #f82520;
+  stroke: rgb(241, 129, 130);;
   stroke-opacity: 0.5;
 }
 
