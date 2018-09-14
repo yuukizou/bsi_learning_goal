@@ -1,0 +1,46 @@
+ <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>BSI Learning Goal</title>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+        <link href="https://fonts.googleapis.com/css?family=Lato:300" rel="stylesheet">
+    <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+    <!-- tutor video overlay -->
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.js"></script>
+</head>
+
+<body class="index">
+    <h1 class="title"> BSI LEARNING GOAL</h1>
+    <div class="tutor" style="font-size:3em; color:#999">
+        <a class="sideButton" data-fancybox="" href="https://www.youtube.com/watch?v=q93lklnNlX0">
+                    <i class="fas fa-info fa-xs">
+                        </i>
+            </a>
+    </div>
+    <h2 class="subtitle">BSI Courses at University of Michigan School of Information</h2>
+    <div id="filters" class="filters">
+        <span>Course Categories:</span>
+        <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+        <button class="btn PreBSI" onclick="filterSelection('PreBSI')"> PreBSI</button>
+        <button class="btn CoreBSI" onclick="filterSelection('CoreBSI')"> CoreBSI</button>
+        <button class="btn UX" onclick="filterSelection('UX')"> UX</button>
+        <button class="btn IA" onclick="filterSelection('IA')"> IA</button>
+        <button class="btn SocialMedia" onclick="filterSelection('SocialMedia')"> Social Media</button>
+        <button class="btn Elective" onclick="filterSelection('Elective')"> Elective</button>
+        <!-- <div class="clearfix"></div> -->
+        <!-- <button class="btn sort" onclick="sortCourses()">Sort</button> -->
+    </div>
+    <div id="courses" class="courses">
+    </div>
+<script type="text/javascript" src="js/view1.js"></script>
+
+</body>
+
+</html>
