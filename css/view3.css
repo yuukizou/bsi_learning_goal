@@ -1,0 +1,122 @@
+.title {
+        text-align: center;
+        color: #444;
+        font-size: 28px;
+        margin-top: 56px;
+        margin-bottom: 56px;
+    }
+
+    .subtitle {
+        text-align: center;
+        color: #444;
+        font-size: 21px;
+        margin-top: 42px;
+        margin-bottom: 42px;
+    }
+
+    .goback {
+        border: none;
+        background: none;
+        position: fixed;
+        left: 5%;
+        top: 6%;
+    }
+
+    .tutor {
+        border: none;
+        background: none;
+        position: fixed;
+        right: 5%;
+        top: 6%;
+    }
+
+    .sideButton img {
+        cursor: pointer;
+        width: 35px;
+    }
+
+    .c {
+        stroke-width: 1.3;
+        stroke: #999;
+        stroke-dasharray: 2, 2;
+        fill: none;
+        stroke-linecap: round;
+    }
+
+    .guide {
+        stroke-width: 1.3;
+        stroke-linecap: round;
+    }
+
+    .pguide {
+        stroke-width: 1.3;
+        stroke-linecap: round;
+    }
+
+    #courseSpeeds {
+        text-align: center;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 400;
+    }
+
+    #courseSpeeds .title {
+        font-size: 24px;
+        fill: #4F4F4F;
+        font-weight: 300;
+    }
+
+    .legendText {
+        font-size: 11px;
+        fill: #6B6B6B;
+        font-weight: 300;
+    }
+
+    #courseSpeeds .axisTitle {
+        text-anchor: middle;
+        fill: #6B6B6B;
+        font-size: 14px;
+        font-weight: 300;
+    }
+
+    #courseSpeeds .courseTitle {
+        text-anchor: middle;
+        fill: white;
+        font-size: 14px;
+        font-weight: 300;
+    }
+
+    #courseSpeeds .axis path,
+    #courseSpeeds .axis line {
+        fill: none;
+        stroke: #C4C4C4;
+        stroke-width: 1px;
+        shape-rendering: crispEdges;
+    }
+
+    #courseSpeeds .axis text {
+        fill: #8C8C8C;
+        font-size: 12px;
+        font-weight: 300;
+    }
+
+    #courseSpeeds .credit {
+        font-size: 14px;
+        fill: #AAAAAA;
+        font-weight: 300;
+        text-anchor: middle;
+    }
+
+    .courseCircle {
+        opacity: 0.8;
+    }
+
+    div.toolTip {
+        fill: #444;
+        font-size: 16px;
+        font-weight: 300;
+        position: static;
+        text-align: center;
+        padding: 2px;
+        border: 0px;
+        pointer-events: none;
+    }

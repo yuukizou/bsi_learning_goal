@@ -1,0 +1,210 @@
+/************ view1 general *************/
+
+.title {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    color: #444;
+    font-size: 28px;
+    margin-top: 56px;
+    margin-bottom: 56px;
+}
+
+body.index {
+    text-align: left !important;
+    margin: 10px !important;
+}
+
+.subtitle {
+  text-align: center;
+  color: #444;
+  font-family: 'Raleway', sans-serif;
+  font-size: 21px;
+  margin-top: 42px;
+  margin-bottom: 42px;
+  font-weight: 400;
+}
+
+
+/************ view1 tutor icon ************/
+
+.tutor {
+    border: none;
+    background: none;
+    position: fixed;
+    right: 5%;
+    top: 6%;
+}
+
+.tutor img{
+    width: 35px;
+}
+
+.tutor:hover{
+    cursor:pointer;
+}
+
+/************ view1 filters ************/
+
+.filters {
+    margin-left: 15px;
+    margin-right: 5%;
+}
+
+.btn:hover, .btn.active {
+    background-color: white;
+    color: #222;
+    border: #222 1.5px solid;
+    height: 45px;
+    line-height: 45px;
+    padding: 0;
+    -webkit-transition: all .8s; /* Safari */
+    transition: all .8s;
+}
+
+.btn {
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    padding-left: 2em !important;
+    padding-right: 2em !important;
+    width: auto !important;
+    height: 45px;
+    line-height: 45px !important;
+    cursor: pointer;
+}
+
+.clearfix {
+    clear: both;
+}
+
+/************** tooltip ***************************/
+/* Tooltip container */
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+    visibility: hidden;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+    border-radius: 4px;
+    font-size: 12px;
+ 
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+    width: 120px;
+    bottom: 100%;
+    left: 50%; 
+    margin-left: -60px;
+
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+/************* view1 progressbars ****************/
+
+.progress {
+    width: 12%;
+    background: #eee;
+    height: 45px;
+    margin: 45px 15px;
+    float: left;
+}
+
+.PreBSI,
+.CoreBSI,
+.UX,
+.IA,
+.SocialMedia,
+.Elective {
+    width: 0;
+    color: #fff;
+    height: 45px;
+    line-height: 45px;
+    padding: 0 5px;
+    border-radius: 4px;
+}
+
+span.name {
+    position: relative;
+    font-size: .8em;
+    color: #444;
+    /*top: -1.7em;*/
+    /*left: 80%;*/
+}
+
+.filterDiv {
+    display: none;
+    border-radius: 4px;
+}
+
+.filterDiv:hover {
+    cursor: pointer;
+}
+
+.filterDiv.tooltip:hover {
+    cursor: default !important;
+}
+.show {
+    display: block !important;
+}
+
+
+/*************** track color coding ************/
+
+.CoreBSI {
+    background: #E8AF29;
+
+}
+
+.PreBSI {
+    background: #1b3a87;
+}
+
+.UX {
+    background: #4c84c9;
+}
+
+.IA {
+    background: #EB7636;
+}
+.SocialMedia {
+    background: #71a34e;
+}
+
+.Elective {
+    background: #732270;
+}
+
+/*.CoreBSI {
+    background-color: rgba(88, 167, 76, 1);
+}
+
+.PreBSI {
+    background-color: rgba(232, 185, 77, 1);
+}
+
+.UX {
+    background: rgba(23, 71, 137, 1);
+}
+
+.IA {
+    background: rgba(222, 124, 71, 1);
+}
+
+.SocialMedia {
+    background: rgb(76, 150, 185);
+}
+
+.Elective {
+    background: rgba(109, 18, 113, 1);
+}*/
