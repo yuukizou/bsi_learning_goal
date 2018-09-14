@@ -28,6 +28,19 @@ body.index {
   font-weight: 400;
 }
 
+.para{
+  text-align: center;
+  color: #f5eeee;
+  font-family: 'Lato', sans-serif;
+  font-size: 15px;
+  margin-top: 20px;
+  margin-bottom: 42px;
+  margin-left:15%;
+  margin-right:15%;
+  line-height: 20pt;
+  /* font-weight: 400; */
+}
+
 
 /************ view1 tutor icon ************/
 
