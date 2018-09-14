@@ -5,7 +5,7 @@ body{
 .title {
     text-align: center;
     font-family: 'Lato', sans-serif;
-    /* font-weight: 10; */
+    font-weight: 10;
     color: #f5eeee;
     font-size: 40px;
     margin-top: 56px;
@@ -24,8 +24,19 @@ body.index {
   font-family: 'Lato', sans-serif;
   font-size: 21px;
   margin-top: 20px;
+  /* margin-bottom: 42px; */
+  /* font-weight: 400; */
+}
+
+.subtitleview2 {
+  text-align: center;
+  color: #f5eeee;
+  font-weight: 5;
+  font-family: 'Lato', sans-serif;
+  font-size: 21px;
+  margin-top: 56px;
   margin-bottom: 42px;
-  font-weight: 400;
+  /* font-weight: 400; */
 }
 
 .para{
@@ -37,7 +48,6 @@ body.index {
   margin-bottom: 42px;
   margin-left:15%;
   margin-right:15%;
-  line-height: 20pt;
   /* font-weight: 400; */
 }
 
